@@ -16,7 +16,7 @@ var (
 	usuarios []modelo.Usuario
 	nextID   = 1
 )
-// ConfigurarRotas configura as rotas
+
 func ConfigurarRotas() *mux.Router {
 	r := mux.NewRouter()
 
