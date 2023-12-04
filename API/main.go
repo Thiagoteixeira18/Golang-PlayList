@@ -14,3 +14,5 @@ func main() {
 	log.Println("servidor iniciado em: http://localhost:1000")
 	log.Fatal(http.ListenAndServe(":1000", r))
 }
+
+//add para teste
