@@ -61,6 +61,7 @@ func ObterUsuario(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusNotFound)
 	fmt.Fprintf(w, "Usuário não encontrado")
 }
+
 func CriarUsuario(w http.ResponseWriter, r *http.Request) {
 	var usuario modelo.Usuario
 	_ = json.NewDecoder(r.Body).Decode(&usuario)
