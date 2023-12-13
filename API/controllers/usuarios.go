@@ -18,9 +18,6 @@ var (
 	nextID   = 1
 )
 
-// Implemente as funções de manipulação de usuários (Listar, Criar, Atualizar, Deletar, Obter etc.)
-// Você pode pegar os códigos das funções dos arquivos anteriores e organizá-los aqui.
-
 func ListarUsuarios(w http.ResponseWriter, r *http.Request) {
 	// Implementação para listar usuários
 }
