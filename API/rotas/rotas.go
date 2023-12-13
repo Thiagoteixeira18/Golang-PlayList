@@ -20,10 +20,8 @@ var (
 func ConfigurarRotas() *mux.Router {
 	r := mux.NewRouter()
 
-	// Rota para listar todos os usuários
 	r.HandleFunc("/usuarios", ListarUsuarios).Methods("GET")
 
-	// Rota para obter um usuário pelo ID
 	r.HandleFunc("/usuarios/{id}", ObterUsuario).Methods("GET")
 
 	// Rota para criar um novo usuário
